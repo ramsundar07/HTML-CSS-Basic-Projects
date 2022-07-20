@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Survey Form</title>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;600&display=swap" rel="stylesheet">
+	<style>
+		body{
+			text-align: center;
+			font-family: 'Prompt', sans-serif;
+			background-image: linear-gradient(
+      115deg,
+      rgba(199, 178, 255, 0.8),
+      rgba(49, 29.8, 100, 0.7)
+    ),
+    url(https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+			background-size:cover ;
+			color: white;
+		}
+		header{
+			font-size: 20px;
+		}
+#survey-form{
+  font-size:16px;
+  margin-left: 40%;
+	background:#2B3856;
+	opacity: 0.8;
+  margin: auto;
+  width: 40%;
+  padding: 1%;
+  border-radius: 10px;
+}
+textarea,label,#cmnt-label{
+	font-size: 20px;
+	display: flex;
+  text-align: left;
+  margin: 30px 30px 30px 30px;
+  display: block;
+}
+#cmnt-label{
+	margin-bottom: -25px;
+	text-align: left;
+}
+input,textarea{
+	color: blac;
+	font-weight:900 ;
+	width: 90%;
+	height:35px;
+	border-radius: 15px 15px 15px 15px;
+}
+textarea{
+	height: 55px;
+}
+button{
+font-family: 'Prompt', sans-serif;
+color: black ;
+font-weight:900 ;
+}
+@media(min width: 200px){
+	form{
+		padding: 225px;
+	}
+	</style>
+
+</head>
+<body>
+<header>
+	<h1 id="title">Survey Form</h1>
+	<p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+</header>
+<form id="survey-form">
+
+	<div>
+	<label for="name" id="name-label">Name<br>
+	<input type="name" name="name" id="name" placeholder="Enter your name" required=""></label>
+	</div>
+	<div>
+	<label for="email" id="email-label">Email<br>
+	<input type="email" name="email" id="email" placeholder="Enter your email" required></label>
+	</div>
+	<div>
+	<label for="age" id="age-label">Age<br>
+	<input type="number" name="age" id="age" min="18" max="99" placeholder="Age"></label>
+	</div>
+	<div>
+	<label for="num" id="number-label">Number<br>
+	<input type="" name="num" id="number" placeholder="Number"></label>
+	</div>
+	<div>
+	<p for="cmnts" id="cmnt-label">Any comments or suggestions?</p>
+	<textarea  name="cmnts" id="cmnts" placeholder="Enter your comments"></textarea>
+	</div>
+	<div>
+		<button type="submit">Submit</button>
+	</div>
+
+</form>
+</header>
+</body>
+</html

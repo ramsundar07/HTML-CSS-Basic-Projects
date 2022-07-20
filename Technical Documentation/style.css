@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400&family=IBM+Plex+Sans:wght@200;400&family=Share+Tech+Mono&display=swap');
+
+ html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Glory', sans-serif;
+  line-height: 1.5;
+  font-size: larger;
+}
+header{
+font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#navbar {
+	font-size: medium;
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  background-color: lightgray;
+}
+
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 2%;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  padding: 2%;
+  list-style-image: url("https://icons.iconarchive.com/icons/royalflushxx/systematrix/16/Favorites-icon.png");
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav header{
+	text-align: center;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code{
+	font-size: medium !important;  
+	font-family: 'Share Tech Mono', monospace !important;
+	display: block;
+  	text-align: left;
+  	background-color: lightgray;
+  	padding: 18px;
+  	margin: 10px;
+  	border-radius: 15px;
+  	white-space: pre-line;
+  	position: relative;
+  	line-height: 2;
+ }
+
+@media only screen and (max-width: 815px) {
+  #navbar ul {
+    border-bottom: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+
+/*nav{
+	border: 1px solid black;
+	height: 800px;
+	width: 200px;
+	display: inline-block;
+	float: left;
+}
+nav a{
+	text-decoration: none;
+}
+nav li{
+	list-style: none;
+}
+nav details{
+
+}
+main{
+	width: 30%;
+	clear: left;
+	font-size: x-large;
+	font-family: 'Glory', sans-serif;
+}
+header{
+font-family: 'IBM Plex Sans', sans-serif;
+}
+code{
+	font-size: medium !important;  
+	font-family: 'Share Tech Mono', monospace !important;
+	display: block;
+  	text-align: left;
+  	background-color: lightgray;
+  	padding: 18px;
+  	margin: 10px;
+  	border-radius: 15px;
+  	white-space: pre-line;
+  	position: relative;
+  	line-height: 2;
+ }*/
+ 

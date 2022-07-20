@@ -1,0 +1,67 @@
+header{
+	margin: 10px;
+	border-bottom: 4px;
+	border-color: black;
+	border-style: groove;
+
+}
+#title{
+	text-align: center;
+	font-variant: small-caps;
+	font-size:60px;
+	text-decoration: underline;
+}
+#main{
+	background-image: url("https://www.teahub.io/photos/full/125-1253801_website-background.png");
+	margin: 10px 80px;
+	border: 2px;
+	border-style: solid;
+}
+#img-div{
+text-align: center;
+
+}
+#image{
+text-align: center;
+display: inline-block;
+
+}
+#img-caption{
+	text-align: center;
+	font-size: medium;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: bold;
+}
+#tribute-info{
+	font-family: 'Acme', sans-serif;
+	font-size: x-large;
+
+}
+.heading{
+	text-decoration: underline;
+
+}
+hr{
+	height: 4px;
+	border-color: black;
+	width: 100%;
+	background-color: gray;
+
+}
+footer{
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: bold;
+	font-size: x-large;
+}
+#tribute-link{
+	text-decoration: none;
+	color: red;
+}
+#tribute-link:hover{
+	color: blue;
+}
+#creator{
+	font-weight: all;
+	font-size: x-large;
+	text-align: right !important ;
+}
